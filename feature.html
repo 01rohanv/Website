@@ -4,8 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Replicating website</title>
 </head>
 <body>
-    
+    <h1><a href="index.html">Workstack</a></h1>
+    <div>
+        <ul class="list">
+            
+            <li style="text-decoration: underline;"><a href="index.html">Home</a></li>
+            <li><a href="feature.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </div> 
+    <div class="page-container" style="display: block; opacity: 1;">
+
+        <div class="page-content">
+
+        
+<div class="page-title">
+    <h1>All the tools you need</h1>
+    <h3>Plan projects, track time and schedule your team's tasks</h3>
+</div>
+<div id="feature-list" class="timeline">
+
+    <div class="screenshot-container-features">
+        <div class="screenshot-container-inner-features">
+            <!-- Section 1 -->
+            <section class="feature-section">
+                <div class="feature-inner"></div>
+                <h3>Work the way you want to</h3>
+                <p>Workstack let's you view your work either as a todo list or as an intuitive drag and drop schedule so you can get an overview of your entire team's workflow.</p>
+                <div class="feature-block">
+                    <img src="todo-list.png" alt="The Workstack Todo List">
+                    <img src="the-stacks.png" alt="The Workstack Stacks">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div>
+        <section class="feature-section alt">
+            <div class="feature-inner"></div>
+            <h3>See all your team on one screen</h3>
+            <p>In addition to individual task lists you can also manage everyone's schedule from a single interactive team calendar.</p>
+            <div class="feature-block-single">
+                <img src="team-calendar.png" alt="Workstack team calendar view">
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Section 3 -->
+    <div>
+        <section class="feature-section">
+            <div class="feature-inner"></div>
+            <h3>Pinned tasks or stacked?</h3>
+            <p>There are two ways of scheduling work, either pinned to a start date or just stacked one after another, whichever way suits the way you work.</p>
+            <div class="">
+                <div class="stacks">
+                    <div class="click-sml scaleup-toggle-sml onboard-faded"></div>
+                    <div class="unscheduled-toggle-icon icon-stacked"></div>
+                    <div class="stack stack1 show-overflow">
+                        <div class="task-block">
+                            <div class="task-title"></div>
+                        </div>
+                    </div>
+                    <div class="stack stack2 show-overflow">
+                        <div class="task-block1">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="task-block2">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="task-block3 drag">
+                            <div class="task-title"></div>
+                        </div>
+                    </div>
+                    <img src="" class="stack-label stack-label-stacked">
+                    <img src="" class="stack-label stack-label-pinned">
+                </div>
+                <span class="small">
+                    * Everyone has both types of stack and can easily toggle between the two.
+                </span>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Section 4 -->
+    <div>
+        <section class="feature-section">
+            <div class="feature-inner"></div>
+            <h3>Never miss a task</h3>
+            <p>So that you know which tasks are outstanding Workstack will continually push unfinished tasks forward on the Calendar until they're complete.</p>
+            <div class="">
+                <div class="stacks">
+                    
+                    
+                  
+                    <div class="stack stack1 show-overflow">
+                        <div class="pinned task-block-pinned1 day1 half-width left-pos third-width" style="opacity: 1;">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="pinned task-block-pinned2 day1 half-width middle-pos third-width" style="opacity: 1;">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="pinned task-block-pinned3 day1 third-width right-pos" style="opacity: 1;">
+                            <div class="task-title"></div>
+                        </div>
+                    </div>
+                    <div class="stack static-stacked show-overflow">
+                        <div class="static-task-block1">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="static-task-block2">
+                            <div class="task-title"></div>
+                        </div>
+                        <div class="static-task-block3">
+                            <div class="task-title"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Section 5 -->
+    <div id="donut-chart">
+        <section class="feature-section alt">
+            <div class="feature-inner"></div>
+            <h3>Track time and money</h3>
+            <p>Set project budgets and then track time and spend against them.</p>
+            <div class="feature-block-single">
+                <div id="doughnutChart" class="chart"><svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 150.11148573950265 10.000044389543149 A 140 140 0 1 1 150.0995427377561 10.000035388421054 L 150.07465705331708 45.00002654131579 A 105 105 0 1 0 150.083614304627 45.00003329215737 Z" fill="#eff1f3"></path><g opacity="0.9999999923792104"><path stroke-width="1" stroke="transparent" fill="rgba(96,207,254,1)" data-order="0" d="M 150 10 A 140 140 0 0 1 286.4899081316526 181.1529288865916 L 252.36743109873944 173.3646966649437 A 105 105 0 0 0 150 45 Z"></path><path stroke-width="1" stroke="transparent" fill="rgba(96,207,254,0.5)" data-order="1" d="M 286.4899081316526 181.1529288865916 A 140 140 0 1 1 149.99999329640337 10.000000000000142 L 149.99999497230255 45.000000000000114 A 105 105 0 1 0 252.36743109873944 173.3646966649437 Z"></path></g></svg><div class="doughnutSummary" style="width: 140px; height: 140px; margin-left: -70px; margin-top: -70px;"><p class="doughnutSummaryTitle">$</p><p class="doughnutSummaryNumber" style="opacity: 1;">840.0</p></div></div>
+            </div>
+            <span class="small">* Track the time scheduled as well as time worked</span>
+        </section>
+    </div>
+
+    <!-- Section 6 -->
+    <div>
+        <section class="feature-section">
+            <div class="feature-inner"></div>
+            <h3>Link to your other apps</h3>
+            <p>Workstack integrates with Basecamp 3, Google Calendar, Slack and our Zapier app means you can connect to over 1000 other services.</p>
+            <div class="feature-block-single">
+                <img class="integrations" src="workstack-integrations.png" alt="Workstack integrates with Basecamp and other apps">
+            </div>
+            <span class="small">* Greyed out means coming soon</span>
+        </section>
+    </div>
+
+
+
+</div>
+
+
+        </div>
+
+        <div class="clients">
+  <div class="clients-outer">
+    <div class="clients-img" data-stellar-ratio="0.7" style="position: relative; z-index: 0; background: none; display: none; top: -264.417px;"><div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 600px; width: 794px; z-index: -999998; position: absolute;"><img src="img/client-logos.png" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1680.67px; height: 600px; max-height: none; max-width: none; z-index: -999999; left: -443.336px; top: 0px;"></div></div>
+    <div class="clients-inner">
+        <h2 class="anim-block lc" style="opacity: 1; transform: translate(0px, 0px);">Try it free for 14 days</h2>
+        <h3 class="anim-block no-bottom-margin" style="opacity: 1; transform: translate(0px, 0px);">Easy setup <span class="dot">•</span> full version <span class="dot">•</span> cancel at anytime</h3>
+        <a href="" class="btn-trial anim-block" style="opacity: 1; transform: translate(0px, 0px);">Start 14 day free trial</a>
+    </div>
+  </div>
+</div>
+<footer class="cf">
+<ul class="nav-footer">
+<li><a href="feature.html" class="">Features</a></li>
+<li><a href="pricing.html" class=""">Pricing</a></li>
+<li><a href="" >Support</a></li>
+<li><a href="">API</a></li>
+<li><a href="contact.html">Contact</a></li>
+  <li><a href="">Terms of Service</a></li>
+  <li><a href="">Privacy</a></li>
+</ul>
+<hr class="footer-line">
+        <span class="footer-strapline">
+            Planning made easy
+        </span>
+        <span class=""">
+            Copyright 2020 - Rohan Verma<br>
+            <span class="">Enrollment No.-17STUCHH010140</span>
+        </span>
+       
+</footer>
+
+    </div>
 </body>
 </html>
